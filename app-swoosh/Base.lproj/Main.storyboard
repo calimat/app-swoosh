@@ -175,6 +175,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="WpK-V5-WBu" eventType="touchUpInside" id="y8f-sv-3jU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2X-Q5-WOu">
                                 <rect key="frame" x="0.0" y="30" width="44" height="33"/>
@@ -208,6 +211,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3Tr-Rg-47F"/>
                     </view>
+                    <connections>
+                        <segue destination="hUu-5y-frR" kind="show" identifier="skillVCSegue" id="6LS-jZ-nkJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nAO-6i-BjF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="GZ4-pp-aAJ" userLabel="Exit" sceneMemberID="exit"/>
@@ -303,7 +309,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fuV-Kh-hJo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1485.5999999999999" y="131.78410794602701"/>
+            <point key="canvasLocation" x="1601" y="136"/>
         </scene>
     </scenes>
     <resources>
